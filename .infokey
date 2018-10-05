@@ -38,10 +38,14 @@ zt redraw-display
 
 ^o history-node
 ^h list-visited-nodes
+# This is actually ^/, but for some reason it is expressed as ^_
 ^_ clear-search
 
 i virtual-index
 I index-apropos
+
+# \xk is the Backspace key on my keyboard
+\kx move-to-prev-xref
 
 #var
 highlight-searches=On
