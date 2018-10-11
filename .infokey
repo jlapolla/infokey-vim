@@ -47,6 +47,17 @@ I index-apropos
 # \xk is the Backspace key on my keyboard
 \kx move-to-prev-xref
 
+^w^w next-window
+^ww next-window
+^wj next-window
+^wk prev-window
+^ws split-window
+^wX delete-window
+^wq delete-window
+^wQ keep-one-window
+^w+ grow-window
+^w= tile-windows
+
 #var
 highlight-searches=On
 scroll-behavior=Page Only
