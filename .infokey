@@ -52,9 +52,9 @@ I index-apropos
 ^wj next-window
 ^wk prev-window
 ^ws split-window
-^wX delete-window
+^wX delete-window # Inspired by `screen'
 ^wq delete-window
-^wQ keep-one-window
+^wQ keep-one-window # Inspired by `screen'
 ^w+ grow-window
 ^w= tile-windows
 
