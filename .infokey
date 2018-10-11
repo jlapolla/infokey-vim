@@ -44,7 +44,7 @@ zt redraw-display
 i virtual-index
 I index-apropos
 
-# \xk is the Backspace key on my keyboard
+# \kx is the Backspace key on my keyboard
 \kx move-to-prev-xref
 
 ^w^w next-window
